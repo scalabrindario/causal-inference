@@ -15,9 +15,9 @@ Finally, we plotted the oriented graphs. The results of D1, D2, and D3 are visib
 Although statistically consistent, the SGS algorithm is computationally inefficient. 
 
 The number of conditional independence tests it does grows exponentially as a function of the number of variables analyzed, each represented by a node in the graph. The SGS algorithm starts from the worst case, without exploiting any possible, statistically sufficient short-cuts.
-The SGS algorithm’s complexity is O(2n), with n being the number of variables represented in the graphs, that is, an exponential search. The upper bound of CI tests to perform (worst case scenario) according to SGS is 2^n .
+The SGS algorithm’s complexity is O(2n), with n being the number of variables represented in the graphs, that is, an exponential search. The upper bound of CI tests to perform (worst case scenario) according to SGS is 2^n [[1]](#1).
 
-PC logic is like the SGS algorithm. The two algorithms also rely on the same assumptions, yet the PC algorithm is much more efficient as it needs to perform fewer statistical tests. Hence, it operates much faster. PC algorithms’ computational complexity is O(n^d max), with n being the number of variables represented in the graph, and dmax being the maximal degree of the graph, which typically grows with the number of nodes n. The upper bound of CI tests to perform (worst case scenario) according to PCs is n^d max.
+PC logic is like the SGS algorithm. The two algorithms also rely on the same assumptions, yet the PC algorithm is much more efficient as it needs to perform fewer statistical tests. Hence, it operates much faster. PC algorithms’ computational complexity is O(n^d max), with n being the number of variables represented in the graph, and dmax being the maximal degree of the graph [[2]](#2), which typically grows with the number of nodes *n* [[3]](#3). The upper bound of CI tests to perform (worst case scenario) according to PCs is n^d max.
 In practice, implementing the three algorithms with the three datasets, we had to perform the number of CI tests resumed in Table below. However, they do not always correspond to our expectations with SGS not necessarily being less efficient than PC.
 
 |                | D1 | D2  | D3   |
@@ -67,6 +67,9 @@ Ultimately, one should note that bi-directional arrows are NOT an indication of 
 <p align="center"><img src="https://drive.google.com/uc?id=1OLsLAwAHHg-jzVAE-hlsDQ4jdEQ9offY" width="300"/></p>
 
 
-
+## References
+<a id="1">[1]</a> Glymour, C., Spirtes, P., & Scheines, R. (1991). Causal Inference. Erkenntnis (1975-), 35(1/3), 151–189. http://www.jstor.org/stable/20012366 <br>
+<a id="2">[2]</a> The Maximum Degree of G denoted by Δ(G), is the degree of the vertex with the greatest number of edges incident to it <br>
+<a id="3">[3]</a> Sondhi, A., & Shojaie, A. (2019). The Reduced PC-Algorithm: Improved Causal Structure Learning in Large Random Networks. J. Mach. Learn. Res., 20(164), 1-31
 
 
