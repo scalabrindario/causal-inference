@@ -76,4 +76,5 @@ Ultimately, one should note that bi-directional arrows are NOT an indication of 
 <a id="2">[2]</a> The Maximum Degree of G denoted by Δ(G), is the degree of the vertex with the greatest number of edges incident to it <br>
 <a id="3">[3]</a> Sondhi, A., & Shojaie, A. (2019). The Reduced PC-Algorithm: Improved Causal Structure Learning in Large Random Networks. J. Mach. Learn. Res., 20(164), 1-31
 
-
+## License 
+[MIT](https://choosealicense.com/licenses/mit/)
