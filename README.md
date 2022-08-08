@@ -66,6 +66,10 @@ Ultimately, one should note that bi-directional arrows are NOT an indication of 
 
 <p align="center"><img src="https://drive.google.com/uc?id=1OLsLAwAHHg-jzVAE-hlsDQ4jdEQ9offY" width="300"/></p>
 
+## Collaborators
+- [Dario Scalabrin](https://www.linkedin.com/in/scalabrindario/)
+- [Lorenzo Vella](https://www.linkedin.com/in/lorenzo-vella-a024721bb/)
+- [Mia Frey](https://www.linkedin.com/in/mia-frey-28209a208/)
 
 ## References
 <a id="1">[1]</a> Glymour, C., Spirtes, P., & Scheines, R. (1991). Causal Inference. Erkenntnis (1975-), 35(1/3), 151–189. http://www.jstor.org/stable/20012366 <br>
